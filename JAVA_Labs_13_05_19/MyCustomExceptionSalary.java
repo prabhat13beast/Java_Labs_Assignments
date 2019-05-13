@@ -1,4 +1,4 @@
-package demo;
+
 import com.cg.eis.exception.EmployeeException;
 
 public class MyCustomExceptionSalary {
