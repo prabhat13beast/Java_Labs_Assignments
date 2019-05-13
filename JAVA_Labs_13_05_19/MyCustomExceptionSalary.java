@@ -1,3 +1,4 @@
+package demo;
 import com.cg.eis.exception.EmployeeException;
 
 public class MyCustomExceptionSalary {
@@ -20,7 +21,7 @@ public class MyCustomExceptionSalary {
       	 
    }
 
-   public void checkSal(int sal)
+   public void checkSal(int sal) throws EmployeeException
    {
    		System.out.println("Checking salary");
    		if(sal < 3000)
